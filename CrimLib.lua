@@ -27,7 +27,7 @@ function library:console(func)
     func(("\n"):rep(57))
 end
 
-library.signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/WeLoveVast/13/main/Modul1"))()
+library.signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/swagcw/Module/main/ModuleLib.lua"))()
 
 local local_player = game:GetService("Players").LocalPlayer
 local mouse = local_player:GetMouse()
